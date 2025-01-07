@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
     faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -20,14 +19,13 @@ const Homepage = () => {
 
     const codedDescription = (
         <span>
-            A coding curiosity in late 2022 quickly evolved into a passion. While my current specialty lies in <strong>front-end development</strong>, 
-            I actively explore various technologies to expand my skill set and build a diverse array of projects.
+            Hello, my name is Malika Oubilla and I am a software Enginner. I simply love programming and solving problems. Have a look at my work!
         </span>
     )
 
     const codedTitle = (
         <span>
-            I love building apps to solve real world challenges that are a delight to engage with for the end user.
+            Welcome to my portfolio!
         </span>
     )
 
@@ -57,7 +55,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://res.cloudinary.com/dexjsh4sa/image/upload/v1712609501/homepage_zdhsdp.jpg"
+											src="./home.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -74,16 +72,6 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
 							</a>

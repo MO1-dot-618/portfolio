@@ -1,15 +1,14 @@
 const INFO = {
 	main: {
-		title: "Ed the dev",
-		name: "Eddie O'Connor",
-		email: "eddie.oconnor3@gmail.com",
+		title: "Portfolio - Software Engineer",
+		name: "Malika Oubilla",
+		email: "malikaoubilla@gmail.com",
 		logo: "../headshot.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/eddieodev",
-		github: "https://github.com/Eddie-OConnor",
-		linkedin: "https://www.linkedin.com/in/edwardjamesoconnor/",
+		github: "https://github.com/MO1-dot-618",
+		linkedin: "https://www.linkedin.com/in/malika-oubilla-1dot618/",
 	},
 
 	homepage: {
@@ -34,10 +33,9 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Personal Site",
+			title: "E-card game",
 			description:
-				`A simple and responsive web app to showcase projects, display contact information, and tell your story. Open 
-                source for experienced developers to clone/fork and accessible for no-code users to update and host on their own`,
+				`Ecard, a cards game inspired from the anime Kaiji. The project is made in collaboration with Reda Cherkaoui.`,
             
             // I recommend not exceeding four logos here, leads to a poor mobile UX
 			logos: [
@@ -45,46 +43,53 @@ const INFO = {
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
             ],
-			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/personal-site",
             linkText2: "Live",
-			link2: "https://eddie-oconnor.com/"
+			link2: "https://redarshubi.github.io/ECard/",
+			demo: "../project1.jpg"
 		},
 
 		{
-			title: "PollyGlot",
+			title: "Philosophy forum",
 			description:
-				`PollyGlot translates any language into one of the top 12 most commonly spoken global languages. 
-                It solves the language barrier problem when traveling or anytime you encounter an individual 
-                who does not speak the same language(s) as you.`,
+				`A philosophy forum with threads, posts, votes, live chat and private message. Made in collaboration with Reda Cherkaoui.`,
             logos: [
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+                "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
-                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
-                "../openai-icon.png",
+                "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",   
             ],
-			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/PollyGlot",
-            linkText2: "Live",
-			link2: "https://polly-glot.netlify.app/"
+			demo: "../project2.png"
 		},
 
 		{
-			title: "Sue",
+			title: "Cheesy life",
 			description:
-				`"Sue" is derived from and a shortened version of "Sous Chef." Say goodbye to meal planning uncertainty 
-                and elevate your home cooking game with Sue's tailored recommendations, introducing you to dishes you 
-                might not have discovered on your own.`,
+				`A website that provides information about cheese, all you need to know about it, nutritional facts, types and origin, recipes and much more. Collaboration work.`,
             logos: [
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png",
                 "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
-                "../openai-icon.png",
             ],
 			linkText1: "GitHub",
-			link1: "https://github.com/Eddie-OConnor/Sue",
+			link1: "https://github.com/MO1-dot-618/cheesy-life",
             linkText2: "Live",
-			link2: "https://sue-chef.netlify.app/"
+			link2: "https://cheesy-life.onrender.com/",
+			demo: "../project3.png"
+		},
+
+		{
+			title: "Give me rock!",
+			description:
+				`A simple rock, paper, scissors game, themed with the anime Hunter x hunter. `,
+            logos: [
+				"../react-icon.png",
+            ],
+			linkText1: "GitHub",
+			link1: "https://github.com/MO1-dot-618/Give-me-rock",
+            linkText2: "Live",
+			link2: "https://mo1-dot-618.github.io/Give-me-rock/",
+			demo: "../project4.png"
 		}
 	],
 };

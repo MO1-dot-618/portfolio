@@ -6,7 +6,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logos, title, description, linkText1, link1, linkText2, link2 } = props;
+	const { logos, title, description, linkText1, link1, linkText2, link2, demo } = props;
 
     function renderLogos() {
         if (Array.isArray(logos)){
@@ -36,6 +36,7 @@ const Project = (props) => {
 							    <div className="project-link-text">{linkText2}</div>
                             </Link>
 						</div>
+						<div className="project-demo"><img src={demo} alt={`demo`} /></div>
 					</div>
 			</div>
 		</React.Fragment>

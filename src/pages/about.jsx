@@ -13,27 +13,20 @@ const About = () => {
     const codedDescription = (
         <span>
             <p>
-                With a solid background in ad tech, I bring a unique blend of technical expertise and client-facing experience to the 
-                table. In my most recent role as a solution engineer, I collaborated closely with the sales team throughout the pre-sale 
-                cycle for our demand-side platform (DSP). This involved conducting SaaS product demonstrations, coordinating responses 
-                to RFIs, and leveraging my hands-on platform knowledge to provide platform enhancement ideas to the product team.
+			I am a polyvalent engineer from Casablanca, Morocco. I studied Electrical engineering at the National School of Arts and Crafts (ENSAM) at Casablanca and I studied Software Engineering at ALX Africa.
+			I have worked with a startup to get more users to their mobile app and manage map makers and operations processes, I had a lot of fun trying a new activity every couple of weeks, seeing results within weeks, and retrying new things, I love working on agile innovative projects 
+			I spent another year or so working a service designer, managing requirements and tests. I had a chance to connect with an amazing team, onboard and support many of the new comers.
             </p>
             <p>
-                Beyond my professional pursuits, I am an avid endurance athlete, chef, reader, home improvement DIYer, Bitcoiner, and 
-                sports fan. These varied interests not only fuel my personal growth but also contribute to my well-rounded 
-                perspective and a relentless desire to learn.
-            </p>
-            <p>
-                As a new father, I have mastered the art of balancing multiple priorities while maintaining a strong work ethic and commitment 
-                to family. I thrive in dynamic environments that demand adaptability, creative problem-solving, pursuit of improvement and 
-                discipline.
+                Beyond my professional pursuits, I am a huge metal fan (referring to the meme). I also like to spend my spare time writing (I just published my first amateur magazine!).
+				I love lifting and the one and only video game I want to rock (Dofus). And who doesn't love traveling? I love to visit as many places as possible, my dream is to travel the world and discover all the different cultures!
             </p>
         </span>
     )
 
     const codedTitle = (
         <span>
-            Get to know me!
+            Hello!
         </span>
     )
 
@@ -63,7 +56,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://res.cloudinary.com/dexjsh4sa/image/upload/v1712609541/about_pxxxy1.jpg"
+											src="./about.jpg"
 											alt="about"
 											className="about-image"
 										/>
