@@ -1,13 +1,13 @@
 {
 	"name": "personal-site",
 	"version": "1.0.0",
-	"description": "Personal professional site template built using Reactjs",
+	"description": "Personal professional site built using Reactjs",
 	"author": {
-		"name": "Eddie O'Connor",
-		"email": "eddie.oconnor3@gmail.com",
-		"url": "https://tbd.com"
+		"name": "Malika Oubilla",
+		"email": "malikaoubilla@gmail.com"
 	},
-	"license": "MIT",
+	"homepage": "https://MO1-dot-618.github.io/portfolio",
+
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",
 		"@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -29,7 +29,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+    	"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -52,5 +54,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.3.0"
 	}
 }

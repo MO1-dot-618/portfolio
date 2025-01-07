@@ -1,13 +1,10 @@
-# personal-react-site V1
+# My portfolio
 
-Simple and responsive professional website for software-engineers to showcase projects, display contact information, and tell your story.
+Template from: 
 
-<strong>👀 <a href="https://eddie-oconnor.com/" target="_blank">Live Site Demo</a></strong>
+<strong>👀 <a href="https://eddie-oconnor.com/" target="_blank"></a>Eddie O'Connor</strong>
 <br/>
 
-<center>
-    <img src="public\homepage-screenshot.png" alt="personal-react-site image" />
-</center>
 
 -   [Features](#-features)
 -   [Installation and Setup](#-installation-and-setup)
